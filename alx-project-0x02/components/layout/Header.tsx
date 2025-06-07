@@ -10,6 +10,9 @@ const Header: React.FC = () => {
 				<Link href="/about" className="font-bold text-gray-800 tracking-tight">
 					About
 				</Link>
+				<Link href="/posts" className="font-bold text-gray-800 tracking-tight">
+					Posts
+				</Link>
 			</div>
 		</header>
 	)
