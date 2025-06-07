@@ -1,7 +1,12 @@
-const Home: React.FC = () => {
+import Header from "@/components/layout/Header";
+
+const WelcomePage: React.FC = () => {
   return (
-    <h1> Welcome to our site </h1>
+    <>
+      <Header />
+      <h1 className="text-bold py-4  h-auto text-center text-2xl"> Welcome to our site </h1>
+    </>
   );
 };
 
-export default Home;
+export default WelcomePage;
