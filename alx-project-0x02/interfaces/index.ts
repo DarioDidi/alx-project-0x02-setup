@@ -4,7 +4,7 @@ export interface CardProps {
 }
 
 export interface PostProps {
-  id: number;
+  userId: number;
   title: string;
   content: string;
 }
@@ -21,3 +21,8 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
+export interface UserProps {
+  name: string;
+  email: string;
+  address: string;
+};

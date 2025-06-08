@@ -7,11 +7,14 @@ const Header: React.FC = () => {
 				<Link href="/home" className="px-3 font-bold text-gray-800 tracking-tight">
 					Home
 				</Link>
-				<Link href="/about" className="font-bold text-gray-800 tracking-tight">
+				<Link href="/about" className="px-3 font-bold text-gray-800 tracking-tight">
 					About
 				</Link>
-				<Link href="/posts" className="font-bold text-gray-800 tracking-tight">
+				<Link href="/posts" className="px-3 font-bold text-gray-800 tracking-tight">
 					Posts
+				</Link>
+				<Link href="/users" className="px-3 font-bold text-gray-800 tracking-tight">
+					Users
 				</Link>
 			</div>
 		</header>
