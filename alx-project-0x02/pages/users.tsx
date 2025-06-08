@@ -4,7 +4,7 @@ import { UserProps } from "@/interfaces";
 
 const Users: React.FC<UserProps[]> = ({ users }) => {
   return (
-    <div className="flex flex-col bg-gradient-to-r from-emerald-300 to-orange-200 h-screen ">
+    <div className="flex flex-col bg-gradient-to-r from-emerald-300 to-orange-200">
       <Header />
       <main>
         <div className="flex justify-between">
